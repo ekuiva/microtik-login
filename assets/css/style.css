@@ -1,0 +1,104 @@
+html {
+    min-height: 100%;
+}
+
+body {
+    font-family: Arial;
+    font-size: 12px;
+    min-height: 100%;
+    background: linear-gradient(124deg, #17ead9, #6078ea) no-repeat;
+}
+
+.gray-light {
+    color: #444444;
+}
+
+.black {
+    color: black;
+}
+
+.cyan {
+    color: #17ead9;
+}
+
+.ls-1 {
+    letter-spacing: 1.2px;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+}
+
+.box-white {
+    max-width: 23rem;
+    min-width: 18rem;
+    object-fit: contain;
+    background-color: #f9f9f9;
+    box-shadow: 2px -6px 15px 0 rgba(217, 217, 217, 0.5);
+}
+
+.box-white-large {
+    max-width: 60%;
+    min-width: 40%;
+    padding: 2rem;
+    object-fit: contain;
+    background-color: #f9f9f9;
+    box-shadow: 2px -6px 15px 0 rgba(217, 217, 217, 0.5);
+}
+
+.signin-text {
+    color: #17ead9;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.form-box {
+    padding: 1rem 2rem;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #444444;
+}
+
+.form-control {
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid #444444;
+    border-radius: 0;
+    padding: .5rem 0rem;
+    font-size: 15px;
+    color: #000000;
+}
+
+.form-control:focus {
+    background: transparent;
+}
+
+.btn-default {
+    width: 66%;
+    height: 40px;
+    border-radius: 40px;
+    border: solid 1px #17ead9;
+    background-color: transparent;
+    cursor: pointer;
+    color: #17ead9;
+}
+
+.btn-default:hover {
+    background-color: #17ead9;
+    color: #fff;
+}
+
+.label-detail {
+    padding: .5rem;
+    margin: 1rem 1rem;
+    border-bottom: 1px solid #444444;
+}
+
+.box-detail {
+    margin-top: 1.5rem!important;
+    padding-bottom: .5rem!important;
+    padding-top: 3rem!important;
+}
